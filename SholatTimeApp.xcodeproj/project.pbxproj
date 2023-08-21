@@ -11,6 +11,9 @@
 		9F94D3A92A9327920059BA10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F94D3A82A9327920059BA10 /* ContentView.swift */; };
 		9F94D3AB2A9327930059BA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F94D3AA2A9327930059BA10 /* Assets.xcassets */; };
 		9F94D3AF2A9327930059BA10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F94D3AE2A9327930059BA10 /* Preview Assets.xcassets */; };
+		9F94D3B62A9327CE0059BA10 /* PrayerTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F94D3B52A9327CE0059BA10 /* PrayerTime.swift */; };
+		9F94D3BA2A933ABD0059BA10 /* PrayerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F94D3B92A933ABD0059BA10 /* PrayerDetailView.swift */; };
+		9F94D3BC2A93536B0059BA10 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F94D3BB2A93536B0059BA10 /* NotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		9F94D3AA2A9327930059BA10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F94D3AC2A9327930059BA10 /* SholatTimeApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SholatTimeApp.entitlements; sourceTree = "<group>"; };
 		9F94D3AE2A9327930059BA10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F94D3B52A9327CE0059BA10 /* PrayerTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTime.swift; sourceTree = "<group>"; };
+		9F94D3B92A933ABD0059BA10 /* PrayerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerDetailView.swift; sourceTree = "<group>"; };
+		9F94D3BB2A93536B0059BA10 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				9F94D3A62A9327920059BA10 /* SholatTimeAppApp.swift */,
 				9F94D3A82A9327920059BA10 /* ContentView.swift */,
+				9F94D3B52A9327CE0059BA10 /* PrayerTime.swift */,
+				9F94D3B92A933ABD0059BA10 /* PrayerDetailView.swift */,
+				9F94D3BB2A93536B0059BA10 /* NotificationManager.swift */,
 				9F94D3AA2A9327930059BA10 /* Assets.xcassets */,
 				9F94D3AC2A9327930059BA10 /* SholatTimeApp.entitlements */,
 				9F94D3AD2A9327930059BA10 /* Preview Content */,
@@ -140,6 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F94D3A92A9327920059BA10 /* ContentView.swift in Sources */,
+				9F94D3B62A9327CE0059BA10 /* PrayerTime.swift in Sources */,
+				9F94D3BC2A93536B0059BA10 /* NotificationManager.swift in Sources */,
+				9F94D3BA2A933ABD0059BA10 /* PrayerDetailView.swift in Sources */,
 				9F94D3A72A9327920059BA10 /* SholatTimeAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
